@@ -10,9 +10,9 @@ df = pd.read_csv("euro_data.csv", parse_dates=['Date'], index_col=0)
 df = df[df['Cases'] > 0]
 
 # Check head, tail, and describe of dataframe
-# print(df.head())
-# print(df.tail())
-# print(df.describe())
+print(df.head())
+print(df.tail())
+print(df.describe())
 
 # Dataframe is grouped by country, from these groups gets the max value
 grouped_df = df.groupby('Country').max()
