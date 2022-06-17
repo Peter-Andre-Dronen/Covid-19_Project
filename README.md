@@ -59,9 +59,11 @@ The daily death amount differences in each Scandinavian country can be seen here
 
 ![death_data_diff_scandinavia](https://user-images.githubusercontent.com/107481786/174147881-6f1b2bb3-d204-48f4-b3a6-03ccd7540af1.png)
 
-And the amount of daily cases is shown by using a column graph in the following:
+I have considered a wave that started 2021-08-01 and reached it peak 2022-01-27.
+The figure shows the number of days each country had a number of cases in a specific range until the wave peaked.
+The range is shown as an exponential growth and shown by using a column graph in the following:
 
-![cases_data_number_interval_scandinavia](https://user-images.githubusercontent.com/107481786/174147900-0cec1792-7835-43db-8e7e-0dc6bd492d6c.png)
+![](figures/cases_data_number_interval_scandinavia.png)
 
 ## Copyright
 The data used here is retrieved from European Centre for Disease Prevention and Control:
